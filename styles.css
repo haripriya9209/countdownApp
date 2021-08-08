@@ -1,0 +1,57 @@
+body{
+    background-image: url("./images/birthday.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: cursive!important;
+    color: white!important;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+h1{
+    font-size: 3.5rem!important;
+    text-align: center!important;
+}
+.big-text{
+    font-size: 6rem!important;
+}
+span{
+    font-size: 1.5rem;
+}
+.count-ele{
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.date{
+    width: 218px;
+}
+#text{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 20px;
+}
+.date-picker{
+    /* display: flex; */
+    margin: auto;
+    width: 219px;
+}
+
+@media only screen and (max-width: 600px) {    
+.time {
+    display: grid;
+}
+}
